@@ -1,0 +1,7 @@
+{
+    "port": 5000,
+    "MongoDBURI": "mongodb+srv://Sergey:Tmpsergei48@cluster0.pf9tw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "jwtsecret": "sergeybortsov",
+    "clientURL": "http://localhost:3000",
+    "key": "5102a50a9281dfb6c0ca4d4bf0921212"
+}

@@ -1,0 +1,50 @@
+{
+  "name": "qualifyingwork",
+  "version": "1.0.0",
+  "description": "This work is my qualifying in university.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "Diplom",
+    "react",
+    "node",
+    "express",
+    "mongoose",
+    "mongobd",
+    "QualifyingWork",
+    "network",
+    "children"
+  ],
+  "author": "Sergey Bortsov <jonnyyboss98@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "browserify-zlib": "^0.2.0",
+    "chalk": "^5.0.1",
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "materialize-css": "^1.0.0-rc.2",
+    "moment": "^2.29.3",
+    "mongoose": "^6.3.0",
+    "node-polyfill-webpack-plugin": "^1.1.4",
+    "path-browserify": "^1.0.1",
+    "stream-browserify": "^3.0.0",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "nodemon": "^2.0.15"
+  },
+  "engines": {
+    "node": "16.13.2"
+  }
+}
